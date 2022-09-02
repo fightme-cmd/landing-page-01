@@ -8,3 +8,10 @@ body {
   font-family: Roboto, Geneva, Tahoma, sans-serif
 }
 
+.hero-image {
+  max-width: 500px;
+}
+.elephant-img {
+  max-width: 200px;
+}
+
