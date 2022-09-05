@@ -5,13 +5,61 @@
 }
 
 body {
-  font-family: Roboto, Geneva, Tahoma, sans-serif
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
+  padding: 0px 100px;
+  background-color: #DDE9D0;
 }
 
-.hero-image {
-  max-width: 500px;
-}
+
 .elephant-img {
   max-width: 200px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDE9D0;
+    color: #758B72;
+    margin: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.hero-title {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.content1 {
+  display: flex;
+  padding: 15px;
+}
+
+.content1-left {
+  min-width: 200px;
+}
+
+.hero-title, .hero-image, .hero-text, button {
+  margin: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hero-image {
+  max-width: 400px;
+}
