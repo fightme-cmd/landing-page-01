@@ -16,6 +16,7 @@ body {
     background-color: #DDE9D0;
     color: #758B72;
     padding: 15px;
+    
 }
 
 .header-title {
@@ -29,6 +30,7 @@ ul {
     gap: 10px;
 }
 
+
 .hero-title {
   font-size: 30px;
   font-weight: 900;
@@ -39,22 +41,28 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #DDE9D0;
-  padding: 15px;
+  padding: 40px 100px;
 }
 
 .content1-left {
   min-width: 200px;
+  max-width: 800px;
 }
 
-.hero-title, .hero-image, .hero-text, button {
+.hero-title, .hero-image, .hero-text, hero-button {
   margin: 10px;
+  color: #46513d;
 }
 
 .hero-button {
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 15px;
-    font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #758B72;
+  color: white;
+  border: #758B72;
 }
 
 .hero-image {
@@ -91,6 +99,7 @@ ul {
   font-size: 25px;
   font-weight: bold;
   margin: 30px;
+  color: #242526;
 }
 
 .elephant-img {
@@ -128,6 +137,11 @@ ul {
 }
 
 .content4 {
+  background-image: url("cork_bg.png");
+  padding: 10px 50px;
+}
+
+.content4-1 {
   display: flex;
   justify-content: space-between;
   background-color: #DDE9D0;
@@ -159,7 +173,9 @@ ul {
     color: #46513d;
     background-color: #DDE9D0;
     border-color: #46513d;
-    border-width: 2px;
+    border-width: 2.5px;
+    margin: 10px;
+    padding: 0px 20px;
 }
 
 
